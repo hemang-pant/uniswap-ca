@@ -21,7 +21,11 @@
     "syncpack": "8.5.14",
     "turbo": "1.13.4",
     "turbo-ignore": "1.11.3"
-  },
+  },"engines": {
+     "node": "=22.13.1",
+     "yarn": ">=3.2.3",
+     "npm": "please-use-yarn"
+   },
   "manypkg": {
     "ignoredRules": [
       "INTERNAL_MISMATCH"
